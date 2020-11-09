@@ -17,7 +17,6 @@ class Content extends Service
 		$data = [
 			'username' 	=> $this->username,
 			'to' 		=> implode(",", $options['to']),
-			'message' 	=> $options['message']
 		];
 
 		if (array_key_exists('enqueue', $options) && $options['enqueue']) {
